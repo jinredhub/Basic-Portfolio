@@ -1,12 +1,12 @@
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #77777f;
+	color: #777777;
 }
 
 header{
 	width: 100%;
-	background: white;
 	height: 100px;
+	background: #ffffff;
 }
 
 .link{
@@ -19,6 +19,12 @@ header{
 	margin-left: 470px;
 }
 
+.divider-0{
+	width: 100%;
+	height: 2px;
+	background: #cccccc;
+}
+
 .name{
 	float: left;
 	width: 250px;
@@ -28,7 +34,7 @@ header{
 	padding: 10px;
 	padding-top: 30px;
 	margin-left: 100px;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -40,7 +46,8 @@ header{
 .main_content{
 	width: 100%;
 	height: 650px;
-	background: #e9e9e9;
+	background-image: url("../images/bg.jpg");
+	background-repeat: repeat;
 }
 
 section{
@@ -54,7 +61,7 @@ section{
 
 .divider-1{
 	background: #dddddd;
-	height: 2px;
+	height: 3px;
 	width: 600px;
 	margin-left: 30px;
 	margin-bottom: 30px;
